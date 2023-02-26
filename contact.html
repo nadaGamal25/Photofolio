@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photofolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cardo&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="nav-container position-fixed top-0 end-0 start-0">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid py-3 px-3">
+              <a class="navbar-brand text-white" href="#"><i class="fa-solid fa-camera-retro"></i> PhotoFolio</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link " href="about.html">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="gallery.html">Gallery</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="services.html">Services</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active text-white" href="contact.html">Contact</a>
+                  </li>
+                  
+                  
+                </ul>
+                <div class="nav-icons">
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                </div>
+                
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <section class="heading">
+        <div class="caption-header text-center py-5 px-3 w-50 m-auto">
+            <h2 class="about-header">Contact</h2>
+            <p>Odio et unde deleniti. Deserunt numquam exercitationem. Officiis quo odio sint voluptas consequatur ut a odio voluptatem. Sit dolorum debitis veritatis natus dolores. Quasi ratione sint. Sit quaerat ipsum dolorem.
+        </p>
+            <a class="btn btn-warning btn-hire" href="contact.html">Available for hire</a>
+        </div>
+    </section>
+
+    <div class="container w-75 m-auto px-4 contact">
+        <div class="row py-3">
+            <div class="col-md-4 d-flex contact-info">
+                <div><i class="fa-solid fa-location-dot"></i></div>
+                <div>
+                    <h4>Location:</h4>
+                    <p>A108 Adam Street, New York,<br/> NY 535022</p>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex contact-info">
+                <div><i class="fa-regular fa-envelope"></i></div>
+                <div>
+                    <h4>Email:</h4>
+                    <p>info@example.com</p>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex contact-info">
+                <div><i class="fa-solid fa-mobile-screen-button"></i></div>
+                <div>
+                    <h4>Call:</h4>
+                    <p>+1 5589 55488 55
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6">
+                <input type="text" name="name" placeholder="Your Name" class="form-control">
+            </div>
+            <div class="col-md-6">
+                <input type="email" name="mail" placeholder="Your Email">
+            </div>
+        </div>
+
+        <div class="row p-2">
+            <input type="text" name="sub" placeholder="Subject">
+            <textarea name="msg" rows="6" placeholder="Message"></textarea>
+            <div class="d-flex justify-content-center my-2">
+            <button type="submit" class="btn btn-warning msg">Send Message</button>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="d-flex justify-content-center align-items-center py-4">
+            <p class="footer-p">© Copyright PhotoFolio. All Rights Reserved</p>
+        </div>
+    </footer>
+
+    <button id="upBtn" class="btn"><i class="fa-solid fa-arrow-up"></i></button>
+
+    
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-3.6.1.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
